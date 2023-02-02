@@ -17,7 +17,9 @@ export default function Section2() {
   return (
     <div className='section2'>
       <div className={inView ? 'one' : 'one sticky'}>
-        <Container>BOOOKS IS THE PLACE FOR READERS TO GATHER</Container>
+        <Container>
+          <p>BOOOKS IS THE PLACE FOR READERS TO GATHER</p>
+        </Container>
       </div>
 
       {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure
@@ -29,6 +31,8 @@ export default function Section2() {
         Quaerat quae quo ratione. Eligendi est quia ipsa asperiores. */}
 
       <div className='two' ref={ref}>
+        <div className='fill'></div>
+
         {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis
         deserunt maiores! Temporibus repellat magnam eveniet iste voluptatem
         incidunt labore suscipit neque ipsa rerum. Veritatis, cumque! Corporis
@@ -52,7 +56,7 @@ export default function Section2() {
         voluptates libero labore unde, eius doloribus velit, accusantium
         assumenda asperiores alias obcaecati? Obcaecati, soluta. Facere, dolores
         officiis! */}
-        <Sliderslist>
+        {/* <Sliderslist>
           <Slider
             imageSrc={img1}
             title='The impossible navigator'
@@ -77,7 +81,7 @@ View the list of associated community libraries and choose the one closest to yo
             subtitle='
 View the list of associated community libraries and choose the one closest to you.'
           />
-        </Sliderslist>
+        </Sliderslist> */}
       </div>
     </div>
   );
