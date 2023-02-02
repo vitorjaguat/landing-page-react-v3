@@ -1,0 +1,26 @@
+.hero {
+  padding: 50px;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 5rem);
+  background-color: #000;
+}
+.hero__image {
+  border-radius: 10px;
+  width: 99%;
+  height: 99.2%;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  /* bottom: 1000px; */
+  /* right: 100px; */
+}
+.hero__title {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  color: #000;
+  font-size: 2rem;
+  padding: 1rem;
+}

@@ -1,0 +1,30 @@
+.section2 {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* height: calc(100vh - 5rem); */
+  width: 100vw;
+}
+.section2 > * {
+  flex: 1;
+}
+.one {
+  height: 100%;
+  width: 50vw;
+  /* flex: 1; */
+  /* flex-basis: 100%; */
+}
+.one.sticky {
+  position: sticky;
+  top: 5rem;
+  left: 0;
+  background-color: aqua;
+  font-size: large;
+  /* left: 0; */
+}
+.two {
+  overflow-y: visible;
+  background-color: aliceblue;
+  width: 50vw;
+  /* flex: 1; */
+  /* flex-basis: 100%; */
+}
